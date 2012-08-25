@@ -1,6 +1,6 @@
 {
   "name": "sepro",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Sepro is an Connect compatible http proxy which automatic reads configuration files.",
   "main": "lib/sepro.js",
   "scripts": {
