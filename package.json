@@ -15,7 +15,7 @@
   "dependencies": {
     "http-proxy": "~0.8.2",
     "apacheconf": "0.0.3",
-    "request": "~2.10.0",
+    "request": "~2.11.0",
     "semver": "~1.0.14",
     "debug": "~0.7.0",
     "cookie": "0.0.4"
