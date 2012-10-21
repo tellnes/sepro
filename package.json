@@ -18,7 +18,9 @@
     "request": "~2.11.0",
     "semver": "~1.1.0",
     "debug": "~0.7.0",
-    "cookie": "0.0.4"
+    "cookie": "0.0.4",
+    "ini": "~1.0.5",
+    "track": "~0.1.0"
   },
   "devDependencies": {
     "connect": "~2.6.0",
