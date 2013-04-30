@@ -2,7 +2,7 @@
   "name": "sepro",
   "version": "0.0.13",
   "description": "Sepro is an Connect compatible http proxy which automatic reads configuration files.",
-  "main": "lib/sepro.js",
+  "main": "lib/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,9 @@
     "debug": "~0.7.0",
     "cookie": "0.0.6",
     "ini": "~1.1.0",
-    "track": "~0.1.0"
+    "track": "~0.1.0",
+    "buffer-crc32": "~0.2.1",
+    "lru-cache": "~2.3.0"
   },
   "devDependencies": {
     "connect": "~2.7.6",
