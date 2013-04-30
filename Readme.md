@@ -1,9 +1,14 @@
 # Sepro
 
+Sepro is a http proxy which discovers where to proxy a request. It has a
+number of middlewares which is looks for routing rules in their respective
+source. It also supports sticky session either based on cookies or remote
+address.
 
-Sepro is an http proxy that is [connect](https://github.com/senchalabs/connect/) compatible. It has a number of middleware that can route the request to an backend without having to configure it. It also supports sticky session either based on cookies or remote address.
-
-Sepro is based on [NodeJitsu](https://github.com/nodejitsu)´s [http-proxy](https://github.com/nodejitsu/node-http-proxy) library.
+Internally is it using
+[NodeJitsu](https://github.com/nodejitsu)´s
+[node-http-proxy](https://github.com/nodejitsu/node-http-proxy)
+library to proxy the requests.
 
 
 ## Example

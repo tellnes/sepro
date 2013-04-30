@@ -1,7 +1,7 @@
 {
   "name": "sepro",
   "version": "0.0.13",
-  "description": "Sepro is an Connect compatible http proxy which automatic reads configuration files.",
+  "description": "Sepro is a http proxy which discovers where to proxy a request.",
   "main": "lib/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
