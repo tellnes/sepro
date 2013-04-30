@@ -11,12 +11,8 @@ Sepro is based on [NodeJitsu](https://github.com/nodejitsu)´s [http-proxy](http
 ```js
 var sepro = require('sepro')
   , seaport = require('seaport')
-  , uuid = require('node-uuid')
 
 var app = sepro()
-
-// Add x-sepro-id to headers
-app.use(sepro.uuid( uuid.v4 ))
 
 app.use(sepro.stickyCookie())
 

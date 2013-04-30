@@ -1,12 +1,8 @@
 var sepro = require('sepro')
   , connect = require('connect')
   , seaport = require('seaport')
-  , uuid = require('node-uuid')
 
 var app = sepro()
-
-// Add x-sepro-id to headers
-app.use(sepro.uuid( uuid.v4 ))
 
 app.use(sepro.stickyCookie())
 

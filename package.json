@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "connect": "~2.7.6",
-    "node-uuid": "1.4.0",
     "seaport": "~1.5.0"
   },
   "keywords": [
