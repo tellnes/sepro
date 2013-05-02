@@ -1,5 +1,7 @@
 # Sepro
 
+[![Dependency Status](https://gemnasium.com/tellnes/sepro.png)](https://gemnasium.com/tellnes/sepro)
+
 Sepro is a http proxy which discovers where to proxy a request. It has a
 number of middlewares which is looks for routing rules in their respective
 source. It also supports sticky session either based on cookies or remote
