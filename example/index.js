@@ -1,5 +1,4 @@
 var sepro = require('../')
-  , connect = require('connect')
   , seaport = require('seaport')
   , path = require('path')
 

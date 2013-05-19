@@ -25,7 +25,6 @@
     "lru-cache": "~2.3.0"
   },
   "devDependencies": {
-    "connect": "~2.7.6",
     "seaport": "~1.5.0"
   },
   "keywords": [
