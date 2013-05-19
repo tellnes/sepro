@@ -1,6 +1,7 @@
-var sepro = require('sepro')
+var sepro = require('../')
   , connect = require('connect')
   , seaport = require('seaport')
+  , path = require('path')
 
 var app = sepro()
 
@@ -14,6 +15,9 @@ app.use(sepro.haibu({ endpoint: 'http://haibu.example.com:9002/'
 app.use(sepro.seaport({ ports: seaport.connect(7000)
                       , serverName: 'seaport.sepro.exaple.com'
                       } ))
+
+
+app.use(sepro.iniFile( path.resolve(__dirname, './routes.ini') ))
 
 app.use(sepro.apache( '/etc/apache2/httpd.conf' ))
 
