@@ -33,6 +33,9 @@
     "http-proxy",
     "apache",
     "haibu",
-    "seaport"
+    "seaport",
+    "couchdb",
+    "sticky",
+    "cookie"
   ]
 }
