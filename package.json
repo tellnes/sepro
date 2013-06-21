@@ -16,7 +16,7 @@
     "http-proxy": "~0.10.2",
     "apacheconf": "0.0.3",
     "request": "~2.21.0",
-    "semver": "~1.1.0",
+    "semver": "~2.0.7",
     "debug": "~0.7.0",
     "cookie": "~0.1.0",
     "ini": "~1.1.0",
