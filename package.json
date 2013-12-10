@@ -1,6 +1,6 @@
 {
   "name": "sepro",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Sepro is a http proxy which discovers where to proxy a request.",
   "main": "lib/",
   "scripts": {
